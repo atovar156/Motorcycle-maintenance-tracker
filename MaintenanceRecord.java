@@ -1,19 +1,19 @@
 import java.time.LocalDate;
 
-pubic class MaintanenceRecord {
-    private MaintanenceTypetype;
+public class MaintenanceRecord {
+    private MaintenanceType type;
     private LocalDate date;
     private int mileageAtService;
     private String notes;
 
-    public MaintanenceRecord(String type, LocalDate date, int mileageAtService, String notes) {
-        this.type = type:
-        this.date = date:
+    public MaintenanceRecord(MaintenanceType type, LocalDate date, int mileageAtService, String notes) {
+        this.type = type;
+        this.date = date;
         this.mileageAtService = mileageAtService;
         this.notes = notes;
     } 
 
-    public String getType() {
+    public MaintenanceType getType() {
         return type;
     }
 
@@ -22,15 +22,15 @@ pubic class MaintanenceRecord {
     }
 
     public int getMileageAtService() {
-
+        return mileageAtService;
     }
 
-    public string getNotes() {
+    public String getNotes() {
         return notes;
     }
 
     @Override
     public String toString() {
-        return String.format("[%s] %s at %d mi - %s", date, type. mileageAtService, notes);
+        return String.format("[%s] %s at %d mi - %s", date, type, mileageAtService, notes);
     }
  }

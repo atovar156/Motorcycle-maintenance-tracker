@@ -1,4 +1,4 @@
-public enum MaintanenceType {
+public enum MaintenanceType {
     OIL_CHANGE(3000),
     CHAIN_LUBE(500),
     TIRE_CHECK(1000),
@@ -7,7 +7,7 @@ public enum MaintanenceType {
 
     private final int defaultIntervalMiles;
 
-    MaintanenceType(int defaultIntervalMiles) {
+    MaintenanceType(int defaultIntervalMiles) {
         this.defaultIntervalMiles = defaultIntervalMiles;
     }
 
