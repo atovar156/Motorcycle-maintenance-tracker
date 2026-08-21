@@ -5,6 +5,7 @@ How to run
 1. Clone the repo
 
 2. Download the required libraries into a 'lib\' folder:
+
 mkdir lib
 
 curl -L -o lib/sqlite-jdbc.jar "https://github.com/xerial/sqlite-jdbc/releases/download/3.46.1.0/sqlite-jdbc-3.46.1.0.jar"
