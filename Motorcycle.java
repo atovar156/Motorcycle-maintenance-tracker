@@ -21,6 +21,20 @@ public class Motorcycle {
 
     }
 
+    private int id = -1;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
     // Let a bike override the default interval for a given type
     public void setCustomInterval(MaintenanceType type, int miles) {
         customIntervals.put(type, miles);
