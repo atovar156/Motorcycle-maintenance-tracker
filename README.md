@@ -1,5 +1,17 @@
 # Motorcycle-maintenance-tracker
+
 JAVA app that logs oil changes, chain lube, tire wear, mileage intervals for motorcycle.
+
+Features
+- Add multiple motorcycles, each with their own service history
+- Log maintenance records ( oil changes, chain lube, tire checks, brake pads, coolant flushes)
+- Automatically detects overdue maintenance based on mileage intervals
+- Data persists between runs using a local SQLite database
+
+What this demonstrates
+- Object oriented design
+- Enums with associated data
+- Collections
 
 How to run
 1. Clone the repo
